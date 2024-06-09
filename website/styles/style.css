@@ -1,0 +1,290 @@
+/* Universal CSS*/ 
+* {font-family: Arial, Helvetica, Verdana;}
+
+
+/* Regulator Intereface */
+
+
+.warning {
+    color: red;
+    text-align: center;
+    float: center;
+    padding: 10px 20px;
+    font-weight: 900;
+}
+.nowarning {
+    text-align: center;
+    float: center;
+    color: green;
+    font-weight: 700;
+    padding: 10px 20px;
+}
+
+#logoutnav {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    float: right; 
+}
+
+
+/* Restaurant Interface */
+#new {
+    margin: 20px auto;
+    padding: 10px 20px;
+    display: block;
+    max-width: 300px;
+    margin: auto;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.table-container {
+    width: 100%; 
+    overflow-x: auto; 
+    background-color: white; 
+}
+
+#panda {
+    display: block;
+    text-align: center;
+    margin: 0% auto;
+}
+
+table {
+    width: 100%; 
+    background-color: white; 
+    color: black; 
+}
+#location {
+    margin: auto;
+    display: inline-block
+
+}
+th, td {
+    padding: 8px; 
+    text-align: left;
+    white-space: nowrap; 
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.addy {
+    width: 100%;
+    display: block;
+    margin:auto;
+}
+
+#norder {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    float: center;
+    display: block;
+    margin: auto;
+}
+
+#break {
+    background-image: "images/food.jpg";
+    margin: 0.5cm; 
+    padding: 10px; 
+    box-sizing: border-box; 
+}
+
+
+/* home page */
+.slogan {
+    color: gray;
+    text-align: center;
+
+}
+.mow { 
+    text-align: center;
+    margin-top: auto;
+    padding: 10px 20px;
+}
+
+#logo {
+    text-align: center;
+    float: center;
+    margin-top: auto;
+    padding: 10px 20px;
+    display: block;
+    margin: auto;
+}
+#para {
+        line-height: 0%;
+      }
+#hlogin {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    float: center;
+    display: block;
+    max-width: 300px;
+    margin: auto;
+}
+/* https://forum.freecodecamp.org/t/button-wont-center/29301/4 */ 
+
+#delivery {
+    color:gray;
+}
+
+#name{
+    text-align: center;
+    float: center;
+    margin-top: auto;
+    padding: 10px 20px;
+    display: block;
+    margin: auto;
+}
+
+.delivery {
+    padding-left: 40px;
+    margin-left: 40px;
+}
+
+#review {    text-align: center;
+    float: center;
+    margin-top: auto;
+    padding: 10px 20px;
+    display: block;
+    margin: auto;
+
+}
+/* login page
+
+Center the form in the middle */
+#form {
+    width: 300px;
+    margin: 0 auto;
+}
+/*nav */
+
+.nav {
+    float: right;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: smaller;
+    display: block;
+    max-width: 300px;
+    margin: auto;
+    position: sticky;
+}
+
+a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+.previous {
+    background-color: #f1f1f1;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+
+/* https://www.w3schools.com/Css/css_navbar_horizontal.asp */
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  #title {
+    float: left;
+    text-align: center;
+    padding: 14px 18px;
+
+  }
+  li {
+    float: right;
+  }
+
+  
+ .enav {
+    text-align: center;
+    padding: 14px 18px;
+    text-decoration: none;
+  }
+  #loginnav {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    padding: 14p;
+}
+
+#section1, #section2 {
+    float: left;
+    width: 43%;
+    text-align: justify;
+    margin: 1em 1em 1em 1em ;
+    background-color: white;
+    text-align: center; 
+    padding: 1em;
+    border-radius: 10px; } 
+ 
+
+
+/* login form */
+input[type="submit"] {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+}
+#login:hover {
+    background-color: #333;
+}
+#login {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+#form {
+    margin: 20px auto;
+    padding: 10px 20px;
+    text-align: center;
+
+}
+section {    margin: 20px auto;
+    padding: 10px 20px;
+    text-align: center;
+}
+.forgot{ 
+    color:grey;
+}
+.input{
+    input[type=text]{
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        }
+}
+
+
+
+
